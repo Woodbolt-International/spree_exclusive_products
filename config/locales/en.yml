@@ -2,4 +2,6 @@
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
-  hello: "Hello world"
+  spree:
+    only_show_variant_for: "Only show this variant for:"
+    instructions: Leave unchecked to show for all.  Admin always see all variants.

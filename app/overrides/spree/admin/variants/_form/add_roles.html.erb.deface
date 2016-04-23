@@ -1,7 +1,7 @@
 <!-- insert_bottom '[data-hook="admin_variant_form_additional_fields"]' -->
-
 <div class="field">
-  <%= f.label :spree_roles, Spree.t(:roles) %>
+  <%= f.label :spree_roles, Spree.t(:only_show_variant_for) %>
+  <div style="color:gray;font-style:italic;font-size:0.8em;margin:3px 0 10px 0"><%= Spree.t(:instructions) %></div>
   <% Spree::Role.all.each do |role| %>
     <div class="from-group">
       <%= label_tag "variant_spree_role_#{role.name}" do %>
